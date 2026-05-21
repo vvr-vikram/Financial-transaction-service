@@ -27,19 +27,15 @@ Create a database named `financial_service`:
 CREATE DATABASE financial_service;
 ```
 
-### 2. Import into Eclipse
-1. Open Eclipse.
-2. Go to `File` -> `Import` -> `Maven` -> `Existing Maven Projects`.
-3. Select this directory and click `Finish`.
 
-### 3. Running the Application
+### 2. Running the Application
 Right-click on `FinancialTransactionServiceApplication.java` -> `Run As` -> `Java Application` (or `Spring Boot App`).
 
 The application will automatically:
 1. Create the database tables (`schema-update`).
 2. Insert default fraud rules and test accounts using `data.sql`.
 
-### 4. API Documentation
+### 3. API Documentation
 Once the application is running, you can access the Swagger UI at:
 *   [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 *   [http://localhost:8080/api-docs](http://localhost:8080/api-docs)
